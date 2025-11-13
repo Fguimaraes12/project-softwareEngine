@@ -1,0 +1,15 @@
+# Copie este arquivo para .env e ajuste as credenciais
+# No Windows PowerShell: Copy-Item env-example.txt .env
+# No Linux/Mac: cp env-example.txt .env
+
+# Configurações do Banco de Dados PostgreSQL
+# IMPORTANTE: Ajuste o usuário e senha conforme sua instalação do PostgreSQL
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/sge-fortaleza777
+
+# JWT Secret (para autenticação)
+JWT_SECRET=seu_secret_jwt_super_seguro_aqui_altere_este_valor
+JWT_EXPIRES_IN=24h
+
+# Porta do servidor
+PORT=4000
+
